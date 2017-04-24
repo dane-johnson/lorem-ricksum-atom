@@ -3,7 +3,7 @@
     "atom-text-editor": [
       {
         "label": "Toggle lorem-ricksum-atom",
-        "command": "lorem-ricksum-atom:toggle"
+        "command": "lorem-ricksum-atom:open-config"
       }
     ]
   },
@@ -16,7 +16,7 @@
           "submenu": [
             {
               "label": "Toggle",
-              "command": "lorem-ricksum-atom:toggle"
+              "command": "lorem-ricksum-atom:open-config"
             }
           ]
         }
