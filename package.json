@@ -1,6 +1,6 @@
 {
-  "name": "lorem-ricksum-atom",
-  "main": "./lib/lorem-ricksum-atom",
+  "name": "lorem-ricksum",
+  "main": "./lib/lorem-ricksum",
   "version": "0.0.0",
   "description": "A short description of your package",
   "keywords": [
