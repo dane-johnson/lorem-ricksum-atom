@@ -1,4 +1,4 @@
-ricksumProvider = require('./ricksum-provider');
+provider = require('./ricksum-provider');
 module.exports =
   provide: ->
-    @ricksumProvider
+    provider
