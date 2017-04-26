@@ -14,6 +14,7 @@ module.exports =
     new Promise (resolve) ->
       matcher = matchers.find (val) -> val.indexOf(prefix) >= 0
       if prefix != '' and matcher
-        resolve([makeSuggestion "WUBBA LUBBA DUB DUB", matcher])
+        fetchText().then (text) ->
+          resolve([makeSuggestion text[0], matcher])
       else
         resolve([])
