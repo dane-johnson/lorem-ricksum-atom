@@ -1,8 +1,8 @@
 {
   "name": "lorem-ricksum",
   "main": "./lib/lorem-ricksum",
-  "version": "0.1.0",
-  "description": "A short description of your package",
+  "version": "0.1.1",
+  "description": "Rick and Morty placeholder text generator.",
   "keywords": [
   ],
   "repository": "https://github.com/dane-johnson/lorem-ricksum-atom",
