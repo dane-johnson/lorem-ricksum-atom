@@ -1,16 +1,19 @@
 {fetchText} = require('./request')
 
-makeSuggestion = (text, prefix) ->
+matchers = ['ricksum', 'lorem']
+
+makeSuggestion = (text, matcher) ->
   suggestion =
     text: text
-    displayText: prefix
+    displayText: matcher
     rightLabel: 'Lorem Ricksum'
 
 module.exports =
   selector: '.source.coffee'
   getSuggestions: ({editor, bufferPosition, scopeDescriptor, prefix}) ->
     new Promise (resolve) ->
-      if 'ricksum'.indexOf(prefix) >= 0 or 'lorem'.indexOf(prefix) >= 0
-        resolve([makeSuggestion "WUBBA LUBBA DUB DUB", prefix])
+      matcher = matchers.find (val) -> val.indexOf(prefix) >= 0
+      if prefix != '' and matcher
+        resolve([makeSuggestion "WUBBA LUBBA DUB DUB", matcher])
       else
         resolve([])
