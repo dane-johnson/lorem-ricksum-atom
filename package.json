@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "lorem-ricksum-atom:toggle"
   },
-  "repository": "https://github.com/atom/lorem-ricksum-atom",
+  "repository": "https://github.com/dane-johnson/lorem-ricksum-atom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
