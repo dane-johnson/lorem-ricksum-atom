@@ -11,4 +11,4 @@ multiverse.
 
 Just run `apm install lorem-ricksum` and then type `ricksum` into any source file.
 
-Thanks to @emillinden and @adameriksson for use of their API. Check it out at http://loremricksum.com/.
+Thanks to [@emillinden](https://twitter.com/emillinden) and [@adameriksson](https://twitter.com/adameriksson) for use of their API. Check it out at http://loremricksum.com/.
