@@ -9,7 +9,7 @@ makeSuggestion = (text, matcher) ->
     rightLabel: 'Lorem Ricksum'
 
 module.exports =
-  selector: '.source.coffee'
+  selector: '.source'
   getSuggestions: ({editor, bufferPosition, scopeDescriptor, prefix}) ->
     new Promise (resolve) ->
       matcher = matchers.find (val) -> val.indexOf(prefix) >= 0
