@@ -1,7 +1,7 @@
 {
   "name": "lorem-ricksum",
   "main": "./lib/lorem-ricksum",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Rick and Morty placeholder text generator.",
   "keywords": [
   ],
