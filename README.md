@@ -9,6 +9,6 @@ multiverse.
 
 <img src=http://imgur.com/8cYOxyo.gif width=120/>
 
-Just run `apm install lorem-ricksum` and then type `ricksum` into any source file.
+Just run `apm install lorem-ricksum` and then type `ricksum` into any editor.
 
 Thanks to [@emillinden](https://twitter.com/emillinden) and [@adameriksson](https://twitter.com/adameriksson) for use of their API. Check it out at http://loremricksum.com/.
