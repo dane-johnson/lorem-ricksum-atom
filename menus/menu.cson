@@ -1,0 +1,10 @@
+'menu':[
+  'label': 'Packages',
+  'submenu': [
+    'label': 'Lorem Ricksum'
+    'submenu':[
+      {'label': 'Quotes', 'command': 'lorem-ricksum:quotes'},
+      {'label': 'Paragraphs', 'command': 'lorem-ricksum:paragraphs'}
+    ]
+  ]
+]
