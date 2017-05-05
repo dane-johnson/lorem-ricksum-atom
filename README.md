@@ -12,3 +12,9 @@ multiverse.
 Just run `apm install lorem-ricksum` and then type `ricksum` into any editor.
 
 Thanks to [@emillinden](https://twitter.com/emillinden) and [@adameriksson](https://twitter.com/adameriksson) for use of their API. Check it out at http://loremricksum.com/.
+
+
+## Advanced usage
+Niche audiences may need more quotes and paragraphs that just one. This is now possible using special suffixes. Adding `_p#` to then end of the autocompleted string will add `#` paragraphs instead of just one. You can also add a specific number of quotes by using `_q#`.
+
+In addition, if you frequently find yourself in need of a specific number of lines and quotes, a default amount can now be set in the package configuration.
