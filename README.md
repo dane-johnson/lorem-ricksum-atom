@@ -18,3 +18,5 @@ Thanks to [@emillinden](https://twitter.com/emillinden) and [@adameriksson](http
 Niche audiences may need more quotes and paragraphs that just one. This is now possible using special suffixes. Adding `_p#` to then end of the autocompleted string will add `#` paragraphs instead of just one. You can also add a specific number of quotes by using `_q#`.
 
 In addition, if you frequently find yourself in need of a specific number of lines and quotes, a default amount can now be set in the package configuration.
+
+![ricksum_cropped](https://cloud.githubusercontent.com/assets/10768827/25765912/17c68374-31b5-11e7-868d-75be962c202a.gif)
