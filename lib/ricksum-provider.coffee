@@ -3,7 +3,7 @@
 matchers = ['ricksum', 'lorem']
 
 parsePrefix = (prefix, matchers) ->
-  matcher = matchers.find (val) -> val.indexOf(prefix) >= 0
+  matcher = matchers.find (val) -> val.indexOf(prefix) == 0
   if matcher then return {
     display: matcher,
     quotes: atom.config.get('lorem-ricksum.quotes'),
