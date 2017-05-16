@@ -26,6 +26,7 @@ parsePrefix = (prefix, matchers) ->
       quotes = atom.config.get('lorem-ricksum.quotes')
 
     return {display: prefix, quotes, paragraphs}
+  return {display: undefined, quotes: undefined, paragraphs: undefined}
 
 makeSuggestion = (text, display) ->
   suggestion =
